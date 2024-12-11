@@ -3,6 +3,7 @@ package de.adobe.acme.university.common;
 import de.adobe.acme.university.common.exception.AlreadyExistsException;
 import de.adobe.acme.university.common.exception.BadRequestException;
 import de.adobe.acme.university.common.exception.NotFoundException;
+import de.adobe.acme.university.common.exception.RateLimitExceededException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;
 import org.springframework.http.ResponseEntity;
@@ -12,6 +13,14 @@ import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExcep
 
 @RestControllerAdvice
 public class GlobalExceptionHandler extends ResponseEntityExceptionHandler {
+
+    @ExceptionHandler(RateLimitExceededException.class)
+    public ResponseEntity<Object> handleRateLimitExceededException(RateLimitExceededException ex) {
+        return buildErrorResponse(
+                ex.getMessage(),
+                HttpStatus.TOO_MANY_REQUESTS,
+                "RATE_LIMIT_EXCEEDED");
+    }
 
     @ExceptionHandler(AlreadyExistsException.class)
     public ResponseEntity<Object> handleAlreadyExistsException(AlreadyExistsException ex) {

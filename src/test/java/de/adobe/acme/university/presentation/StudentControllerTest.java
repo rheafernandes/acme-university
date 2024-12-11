@@ -83,6 +83,7 @@ public class StudentControllerTest {
         mockMvc.perform(post("/api/v1/students/add/{lecturerId}", savedLecturer.id())
                         .contentType(MediaType.APPLICATION_JSON)
                         .content(objectMapper.writeValueAsString(student)))
-                .andExpect(status().isBadRequest());
+                .andExpect(status().isConflict());
     }
+
 }

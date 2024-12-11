@@ -28,6 +28,7 @@ dependencies {
     implementation("org.springframework.boot:spring-boot-starter-data-jpa")
     implementation("org.springframework.boot:spring-boot-starter-web")
     implementation("org.springframework.boot:spring-boot-starter-validation")
+    implementation("com.bucket4j:bucket4j_jdk17-core:8.14.0")
     implementation("org.mapstruct:mapstruct:1.6.3")
     implementation("org.mapstruct:mapstruct-processor:1.6.3")
     implementation("org.mapstruct:mapstruct:1.5.5.Final")

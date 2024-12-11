@@ -1,8 +1,8 @@
 package de.adobe.acme.university.presentation;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import de.adobe.acme.university.student.lecturer.domain.Lecturer;
-import de.adobe.acme.university.student.lecturer.domain.LecturerRepository;
+import de.adobe.acme.university.lecturer.domain.Lecturer;
+import de.adobe.acme.university.lecturer.domain.LecturerRepository;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,7 +1,7 @@
 package de.adobe.acme.university.student.persistence.repository;
 
-import de.adobe.acme.university.student.lecturer.persistence.entity.LecturerEntity;
-import de.adobe.acme.university.student.lecturer.presentation.LecturerMapper;
+import de.adobe.acme.university.lecturer.persistence.entity.LecturerEntity;
+import de.adobe.acme.university.lecturer.presentation.LecturerMapper;
 import de.adobe.acme.university.student.domain.Student;
 import de.adobe.acme.university.student.domain.StudentRepository;
 import de.adobe.acme.university.student.persistence.repository.jpa.StudentJpaRepository;

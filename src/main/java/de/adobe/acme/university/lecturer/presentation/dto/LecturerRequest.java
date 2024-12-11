@@ -1,4 +1,4 @@
-package de.adobe.acme.university.student.lecturer.presentation.dto;
+package de.adobe.acme.university.lecturer.presentation.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.Pattern;

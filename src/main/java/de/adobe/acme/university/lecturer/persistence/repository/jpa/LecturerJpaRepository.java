@@ -1,6 +1,6 @@
-package de.adobe.acme.university.student.lecturer.persistence.repository.jpa;
+package de.adobe.acme.university.lecturer.persistence.repository.jpa;
 
-import de.adobe.acme.university.student.lecturer.persistence.entity.LecturerEntity;
+import de.adobe.acme.university.lecturer.persistence.entity.LecturerEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

@@ -1,6 +1,6 @@
 package de.adobe.acme.university.student.domain;
 
-import de.adobe.acme.university.student.lecturer.domain.Lecturer;
+import de.adobe.acme.university.lecturer.domain.Lecturer;
 import jakarta.validation.constraints.Pattern;
 import lombok.*;
 

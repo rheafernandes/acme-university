@@ -1,4 +1,4 @@
-package de.adobe.acme.university.student.lecturer.domain;
+package de.adobe.acme.university.lecturer.domain;
 
 import de.adobe.acme.university.student.domain.Student;
 import jakarta.validation.constraints.Null;

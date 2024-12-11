@@ -2,8 +2,8 @@ package de.adobe.acme.university.student.application;
 
 import de.adobe.acme.university.common.exception.AlreadyExistsException;
 import de.adobe.acme.university.common.exception.NotFoundException;
-import de.adobe.acme.university.student.lecturer.domain.Lecturer;
-import de.adobe.acme.university.student.lecturer.domain.LecturerRepository;
+import de.adobe.acme.university.lecturer.domain.Lecturer;
+import de.adobe.acme.university.lecturer.domain.LecturerRepository;
 import de.adobe.acme.university.student.domain.Student;
 import de.adobe.acme.university.student.domain.StudentRepository;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package de.adobe.acme.university.student.lecturer.presentation.dto;
+package de.adobe.acme.university.lecturer.presentation.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import de.adobe.acme.university.student.presentation.dto.StudentResponse;

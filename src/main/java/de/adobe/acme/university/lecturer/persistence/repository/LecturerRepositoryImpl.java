@@ -1,10 +1,9 @@
-package de.adobe.acme.university.student.lecturer.persistence.repository;
+package de.adobe.acme.university.lecturer.persistence.repository;
 
-import de.adobe.acme.university.student.domain.Student;
-import de.adobe.acme.university.student.lecturer.domain.Lecturer;
-import de.adobe.acme.university.student.lecturer.domain.LecturerRepository;
-import de.adobe.acme.university.student.lecturer.persistence.repository.jpa.LecturerJpaRepository;
-import de.adobe.acme.university.student.lecturer.presentation.LecturerMapper;
+import de.adobe.acme.university.lecturer.domain.Lecturer;
+import de.adobe.acme.university.lecturer.domain.LecturerRepository;
+import de.adobe.acme.university.lecturer.persistence.repository.jpa.LecturerJpaRepository;
+import de.adobe.acme.university.lecturer.presentation.LecturerMapper;
 import de.adobe.acme.university.student.persistence.entity.StudentEntity;
 import de.adobe.acme.university.student.presentation.StudentMapper;
 import lombok.RequiredArgsConstructor;

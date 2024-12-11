@@ -34,3 +34,36 @@ docker-compose up --build
 ```
 docker-compose down
 ```
+
+Endpoints
+
+Add Student and attach to a lecturer
+```
+curl --location 'http://localhost:8080/api/v1/students/add/1' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name": "Test",
+    "surname": "Test Surname",
+    "email": "test.surname@acme.de"
+}'
+```
+Get Student by Id
+```
+curl --location 'http://localhost:8080/api/v1/students/1'
+```
+
+Add Lecturer
+```
+curl --location 'http://localhost:8080/api/v1/lecturers' \
+--header 'Content-Type: application/json' \
+--data-raw '{
+    "name": "Test",
+    "surname": "Test Surname",
+    "email": "test.surname@acme.de"
+}'
+```
+
+Get Lecturer by Id
+```
+curl --location 'http://localhost:8080/api/v1/lecturers/1'
+```

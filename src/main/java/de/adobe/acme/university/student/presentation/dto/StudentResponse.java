@@ -1,7 +1,7 @@
 package de.adobe.acme.university.student.presentation.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import de.adobe.acme.university.student.lecturer.presentation.dto.LecturerResponse;
+import de.adobe.acme.university.lecturer.presentation.dto.LecturerResponse;
 import lombok.Builder;
 
 import java.util.Set;

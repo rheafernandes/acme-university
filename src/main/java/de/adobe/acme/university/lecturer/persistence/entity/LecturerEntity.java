@@ -1,4 +1,4 @@
-package de.adobe.acme.university.student.lecturer.persistence.entity;
+package de.adobe.acme.university.lecturer.persistence.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;

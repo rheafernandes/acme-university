@@ -1,7 +1,7 @@
 package de.adobe.acme.university.student.presentation;
 
 import de.adobe.acme.university.student.application.StudentService;
-import de.adobe.acme.university.student.lecturer.presentation.LecturerMapper;
+import de.adobe.acme.university.lecturer.presentation.LecturerMapper;
 import de.adobe.acme.university.student.presentation.dto.StudentRequest;
 import de.adobe.acme.university.student.presentation.dto.StudentResponse;
 import jakarta.validation.Valid;

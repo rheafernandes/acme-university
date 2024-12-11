@@ -1,8 +1,8 @@
-package de.adobe.acme.university.student.lecturer.presentation;
+package de.adobe.acme.university.lecturer.presentation;
 
-import de.adobe.acme.university.student.lecturer.application.LecturerService;
-import de.adobe.acme.university.student.lecturer.presentation.dto.LecturerRequest;
-import de.adobe.acme.university.student.lecturer.presentation.dto.LecturerResponse;
+import de.adobe.acme.university.lecturer.application.LecturerService;
+import de.adobe.acme.university.lecturer.presentation.dto.LecturerRequest;
+import de.adobe.acme.university.lecturer.presentation.dto.LecturerResponse;
 import de.adobe.acme.university.student.presentation.StudentMapper;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotNull;

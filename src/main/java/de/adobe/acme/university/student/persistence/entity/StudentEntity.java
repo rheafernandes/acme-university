@@ -1,7 +1,7 @@
 package de.adobe.acme.university.student.persistence.entity;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
-import de.adobe.acme.university.student.lecturer.persistence.entity.LecturerEntity;
+import de.adobe.acme.university.lecturer.persistence.entity.LecturerEntity;
 import jakarta.persistence.*;
 import lombok.*;
 

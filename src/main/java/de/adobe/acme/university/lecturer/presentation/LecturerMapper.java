@@ -1,9 +1,9 @@
-package de.adobe.acme.university.student.lecturer.presentation;
+package de.adobe.acme.university.lecturer.presentation;
 
-import de.adobe.acme.university.student.lecturer.domain.Lecturer;
-import de.adobe.acme.university.student.lecturer.persistence.entity.LecturerEntity;
-import de.adobe.acme.university.student.lecturer.presentation.dto.LecturerRequest;
-import de.adobe.acme.university.student.lecturer.presentation.dto.LecturerResponse;
+import de.adobe.acme.university.lecturer.domain.Lecturer;
+import de.adobe.acme.university.lecturer.persistence.entity.LecturerEntity;
+import de.adobe.acme.university.lecturer.presentation.dto.LecturerRequest;
+import de.adobe.acme.university.lecturer.presentation.dto.LecturerResponse;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 

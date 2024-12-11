@@ -1,9 +1,9 @@
-package de.adobe.acme.university.student.lecturer.application;
+package de.adobe.acme.university.lecturer.application;
 
 import de.adobe.acme.university.common.exception.AlreadyExistsException;
 import de.adobe.acme.university.common.exception.NotFoundException;
-import de.adobe.acme.university.student.lecturer.domain.Lecturer;
-import de.adobe.acme.university.student.lecturer.domain.LecturerRepository;
+import de.adobe.acme.university.lecturer.domain.Lecturer;
+import de.adobe.acme.university.lecturer.domain.LecturerRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
